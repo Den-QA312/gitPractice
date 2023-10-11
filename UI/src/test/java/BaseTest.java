@@ -19,6 +19,8 @@ public abstract class BaseTest {
     public AlertPage alertPage;
     public FramesPage framesPage;
     public WebTablesPage webTables;
+    public  LinksPage linksPage;
+    public BrokenLinksPage brokenLinksPage;
 
 
 
@@ -38,6 +40,9 @@ public abstract class BaseTest {
         alertPage = new AlertPage();
         framesPage = new FramesPage();
         webTables = new WebTablesPage();
+        linksPage = new LinksPage();
+        brokenLinksPage = new BrokenLinksPage();
+
 
     }
 //    @AfterClass(alwaysRun = true)
